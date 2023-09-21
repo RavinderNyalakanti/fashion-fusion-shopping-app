@@ -1,0 +1,192 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+::selection{
+  background-color: #283593;
+  color: #fff;
+}
+body{
+  background-color: #ebe8e8;
+}
+
+ol,ul{
+  list-style-type: none;
+}
+
+
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 768px) {
+  
+  /* new-Arrival-section */
+  .new-Arrival-section
+  .new-Arrival-image
+  .new-arrival-content_box
+  .arrival-setting-icons {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .new-Arrival-section .new-Arrival-image .new-arrival-content_box{
+    top: 21%;
+  }
+
+  .new-Arrival-section .new-Arrival-image .new-arrival-content_box h4{
+    font-size: 2.0rem;
+    margin-bottom: 0.5rem;
+
+  }
+  .new-Arrival-section .new-Arrival-image .new-arrival-content_box h2{
+    font-size: 38px;
+    margin-bottom: 0.5rem;
+  }
+
+  /* accessrios_category */
+  .product-contente h3{
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 426px) {
+
+   /* accessrios_category */
+   .product-contente h3{
+    text-align: center;
+  }
+  
+  /* new-Arrival-section */
+  .new-Arrival-section
+  .new-Arrival-image
+  .new-arrival-content_box
+  .arrival-setting-icons {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+
+  .new-Arrival-section .new-Arrival-image .new-arrival-content_box{
+    top: 19%;
+  }
+
+  .new-Arrival-section .new-Arrival-image .new-arrival-content_box h4{
+    display: none;
+  }
+  .new-Arrival-section .new-Arrival-image .new-arrival-content_box h2{
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+
+
+}
+@media only screen and (max-width: 376px) {
+
+    /* accessrios_category */
+    .product-contente h3{
+      text-align: center;
+    }
+
+  .new-Arrival-plus{
+    padding: 25px 0;
+  }
+  
+  /* new-Arrival-section */
+  .new-Arrival-section
+  .new-Arrival-image
+  .new-arrival-content_box
+  .arrival-setting-icons {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+
+  .new-Arrival-section .new-Arrival-image .new-arrival-content_box{
+    top: 10%;
+  }
+
+  .new-Arrival-section .new-Arrival-image .new-arrival-content_box h4{
+    display: none;
+  }
+  .new-Arrival-section .new-Arrival-image .new-arrival-content_box h2{
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+
+
+}
+@media only screen and (max-width: 321px) {
+
+    /* accessrios_category */
+    .product-contente h3{
+      text-align: center;
+    }
+
+  .new-Arrival-plus{
+    padding: 25px 0;
+  }
+  
+  /* new-Arrival-section */
+  .new-Arrival-section
+  .new-Arrival-image
+  .new-arrival-content_box
+  .arrival-setting-icons {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .new-Arrival-section .new-Arrival-image .new-arrival-content_box{
+    top: 10%;
+  }
+
+  .new-Arrival-section .new-Arrival-image .new-arrival-content_box h4{
+    display: none;
+  }
+  .new-Arrival-section .new-Arrival-image .new-arrival-content_box h2{
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+}
